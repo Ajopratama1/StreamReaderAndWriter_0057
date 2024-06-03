@@ -14,7 +14,8 @@ int main() {
     
     while (true) {
         cout << "- ";
-        getline(cin, baris)
+        getline(cin, baris);
+        if(baris == "q") break;
     }
     
 }
